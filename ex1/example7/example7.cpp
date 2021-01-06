@@ -21,10 +21,10 @@ int main()
 
 	for (int row = 0; row < image_height; ++row)
 	{
-		// Linear interplation
-		const float alpha = (float)row / (image_height - 1); // 0.0f <= alpha <= 1.0f
 		for (int col = 0; col < image_width; ++col)
 		{
+			// Linear interplation
+			const float alpha = (float)col / (image_width - 1); // 0.0f <= alpha <= 1.0f
 			const int offset = (col + image_width * row) * 3;
 			buffer[offset] = static_cast<uint8_t>(255 * (1.0f - alpha));
 			buffer[offset + 1] = 0;
