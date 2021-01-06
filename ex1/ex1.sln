@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example6", "example6\exampl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example7_2", "example7_2\example7_2.vcxproj", "{9B84BD89-92AA-4F69-8052-EB823AD04471}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. 기본도형그리기 example1", "3. 기본도형그리기 example1\3. 기본도형그리기 example1.vcxproj", "{79058073-5DE2-404F-9673-976ACEF4F58A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{9B84BD89-92AA-4F69-8052-EB823AD04471}.Release|x64.Build.0 = Release|x64
 		{9B84BD89-92AA-4F69-8052-EB823AD04471}.Release|x86.ActiveCfg = Release|Win32
 		{9B84BD89-92AA-4F69-8052-EB823AD04471}.Release|x86.Build.0 = Release|Win32
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Debug|x64.ActiveCfg = Debug|x64
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Debug|x64.Build.0 = Debug|x64
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Debug|x86.ActiveCfg = Debug|Win32
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Debug|x86.Build.0 = Debug|Win32
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Release|x64.ActiveCfg = Release|x64
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Release|x64.Build.0 = Release|x64
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Release|x86.ActiveCfg = Release|Win32
+		{79058073-5DE2-404F-9673-976ACEF4F58A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
