@@ -31,6 +31,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example7_2", "example7_2\ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. 기본도형그리기 example1", "3. 기본도형그리기 example1\3. 기본도형그리기 example1.vcxproj", "{79058073-5DE2-404F-9673-976ACEF4F58A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. 기본도형그리기 ex1 정답", "3. 기본도형그리기 ex1 정답\3. 기본도형그리기 ex1 정답.vcxproj", "{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example1_c", "example1_c\example1_c.vcxproj", "{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +155,22 @@ Global
 		{79058073-5DE2-404F-9673-976ACEF4F58A}.Release|x64.Build.0 = Release|x64
 		{79058073-5DE2-404F-9673-976ACEF4F58A}.Release|x86.ActiveCfg = Release|Win32
 		{79058073-5DE2-404F-9673-976ACEF4F58A}.Release|x86.Build.0 = Release|Win32
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Debug|x64.ActiveCfg = Debug|x64
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Debug|x64.Build.0 = Debug|x64
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Debug|x86.Build.0 = Debug|Win32
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Release|x64.ActiveCfg = Release|x64
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Release|x64.Build.0 = Release|x64
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Release|x86.ActiveCfg = Release|Win32
+		{5F64FA4F-BA3C-44FE-B8F7-E8AA1ABA73BB}.Release|x86.Build.0 = Release|Win32
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Debug|x64.ActiveCfg = Debug|x64
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Debug|x64.Build.0 = Debug|x64
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Debug|x86.Build.0 = Debug|Win32
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Release|x64.ActiveCfg = Release|x64
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Release|x64.Build.0 = Release|x64
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Release|x86.ActiveCfg = Release|Win32
+		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
