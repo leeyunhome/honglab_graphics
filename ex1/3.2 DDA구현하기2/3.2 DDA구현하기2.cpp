@@ -1,7 +1,4 @@
-﻿// 3.2 DDA구현하기1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <vector>
 #include <string>
@@ -40,23 +37,54 @@ public:
     }
 
     // Easy to understand but unoptimized implementation
-    void drawLineTest1(int x0, int y0, int x1, int y1, const RGB& rgb)
+    void drawLineTest2(int x0, int y0, int x1, int y1, const RGB& rgb)
     {
-        if (x0 > x1)
+        if (abs(x1 - x0) > abs(y1 - y0))
         {
-            cout << "swap called" << endl;
-            std::swap(x0, x1);
-            std::swap(y0, y1);
-        }
+            //...
+            if (x0 > x1)
+            {
+                cout << "swap called" << endl;
+                std::swap(x0, x1);
+                std::swap(y0, y1);
+            }
 
-        //...
-        
-        const float y_inc = (float)(y1 - y0)/ (x1-x0);
-        float y = (float)y0;
-        for (int x = x0; x <= x1; x++)
+            //...
+
+            const float y_inc = (float)(y1 - y0) / (x1 - x0);
+            float y = (float)y0;
+            for (int x = x0; x <= x1; x++)
+            {
+                drawPixel(x, round(y), rgb);
+                y += y_inc;
+            }
+        }
+        else
         {
-            drawPixel(x, round(y), rgb);
-            y += y_inc;
+            //...
+            if (x0 > x1)
+            {
+                cout << "swap called" << endl;
+                std::swap(x0, x1);
+                std::swap(y0, y1);
+            }
+
+            //...
+            /*const float y_inc = (float)(y1 - y0) / (x1 - x0);
+            float y = (float)y0;
+            for (int x = x0; x <= x1; x++)
+            {
+                drawPixel(x, y, rgb);
+                drawPixel(x, round(y), rgb);
+                y += y_inc;
+            }*/
+            const float x_inc = (float)(x1 - x0) / (y1 - y0);
+            float x = (float)x0;
+            for (int y = y0; y <= y1; y++)
+            {
+                drawPixel(round(x), y, rgb);
+                x += x_inc;
+            }
         }
     }
 
@@ -92,12 +120,12 @@ int main()
     pixel_buffer.clear(RGB(255, 255, 255));
 
     // Case 1: 4 - 0 > 2 - 1
-    //pixel_buffer.drawLineTest1(0, 1, 4, 2, RGB(0, 0, 0));
+    //pixel_buffer.drawLineTest2(0, 1, 4, 2, RGB(0,0,0)); 
 
     // Case 2: 9 - 7 < 3 - 0
-    //pixel_buffer.drawLineTest1(2, 0, 4, 3, RGB(0,0,0)); 
+    pixel_buffer.drawLineTest2(2, 0, 4, 3, RGB(0, 0, 0));
 
-    pixel_buffer.writePPM("ex2_DDA.ppm");
+    pixel_buffer.writePPM("ex3_DDA2.ppm");
 
     return 0;
 }
