@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. 기본도형그리기 ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example1_c", "example1_c\example1_c.vcxproj", "{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.2 DDA구현하기1", "3.2 DDA구현하기1\3.2 DDA구현하기1.vcxproj", "{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Release|x64.Build.0 = Release|x64
 		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Release|x86.ActiveCfg = Release|Win32
 		{DB8C1D9C-DCFD-4310-BADA-5780CA3544DC}.Release|x86.Build.0 = Release|Win32
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Debug|x64.ActiveCfg = Debug|x64
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Debug|x64.Build.0 = Debug|x64
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Debug|x86.Build.0 = Debug|Win32
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Release|x64.ActiveCfg = Release|x64
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Release|x64.Build.0 = Release|x64
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Release|x86.ActiveCfg = Release|Win32
+		{480CF5E7-E15A-4953-84EC-3A102D7DAB4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
